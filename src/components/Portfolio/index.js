@@ -1,13 +1,35 @@
 import React from 'react';
-import Project from '../Project';
 
-function Portfolio({ currentProject }) {
-    const { name, link } = currentProject;
+function Portfolio() {
     return (
         <section>
-            <h2>{name}</h2>
-            <p>{link}</p>
-            <Project project={currentProject.name} />
+            <ul>
+                <li>
+                    <h2>name</h2>
+                    <p>links</p>
+                </li>
+                <li>
+                    <h2>name</h2>
+                    <p>links</p>
+                </li>
+                <li>
+                    <h2>name</h2>
+                    <p>links</p>
+                </li>
+                <li>
+                    <h2>name</h2>
+                    <p>links</p>
+                </li>
+                <li>
+                    <h2>name</h2>
+                    <p>links</p>
+                </li>
+                <li>
+                    <h2>name</h2>
+                    <p>links</p>
+                </li>
+            </ul>
+            
         </section>
     )
 };
