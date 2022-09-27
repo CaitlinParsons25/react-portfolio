@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='flex-row'>
       <div>
         <a href="https://github.com/CaitlinParsons25">GitHub profile</a>
       </div>
