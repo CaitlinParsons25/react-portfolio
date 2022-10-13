@@ -5,6 +5,10 @@ function Portfolio() {
         <section>
             <h2 id="portfolio">Portfolio</h2>
             <ul>
+            <li>
+                    <h3>MERN Poetry Forum</h3>
+                    <a href="https://github.com/CaitlinParsons25/mern-poetry-forum.git">repository link</a>
+                </li>
                 <li>
                     <h3>Tech Blog</h3>
                     <a href="https://github.com/CaitlinParsons25/tech-blog.git">repository link</a>
